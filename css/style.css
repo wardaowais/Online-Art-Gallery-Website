@@ -1,0 +1,328 @@
+/*CSS Reset*/
+*{
+         margin:0;
+         padding:0;
+}
+/*CSS variable */
+:root{
+--navbar-height: 58px;}
+/*Navigation Bar */
+#navbar{position:relative;}
+#navbar{
+         display:flex;
+         align-items:center;
+         margin-left: -19px;
+         margin-top: -28;}
+         *{margin: 9px;} 
+#navbar::before{
+                  content:"";
+                  background-color:rgb(33, 21, 21);
+                  position:absolute;
+                  height: 66px;
+                  width:102.3%;
+                  z-index:-1;
+}
+/*Navigation bar: logo  logo img*/   
+#logo {
+         margin: -9px -8px;}
+#logo img {
+                  height: 65px;
+                  margin: -4px -6pxpx;
+}
+/*Navigation bar: List styling*/
+#navbar ul {display: flex;}
+* {      margin: 9px;
+         padding: -1px;
+}
+#navbar ul li {
+         list-style:none;
+         font-size:1.3rem;
+}
+#navbar ul li a{
+         color:white;
+         display: block;
+         padding:3px 2px;
+         border-radius:20px;
+         text-decoration:none;
+}
+#navbar ul li a:hover{
+         color:black;
+       background-color:white;
+}
+/*home section*/
+#home{
+         display:flex;
+         flex-direction:column;
+         height:335px;
+         padding:-1px 200px;
+         justify-content: center;
+         align-items: center;
+}
+#home::before{
+         content:"";
+         background:url(../img/bgb3.jpg) no-repeat center center/cover ;
+         position:absolute;
+         height: 500px;;
+         width:100%;
+         z-index:-1;
+         opacity:0.82;
+}
+#home p{
+       
+         text-align:center;
+         justify-content: center;
+         font-size: 1.34rem;
+         font-style: oblique;
+}
+
+/*utility classes*/
+.h-primary{
+         font-size: 2rem;
+         padding:12px;
+         font-style: italic;
+}
+.container{
+         display:flex;
+         align-items:center;
+         justify-content: center;
+         flex-direction:row;
+         height:345px;
+}
+/*page 2 avialable paintings*/
+#paint{
+
+         display:flex;
+         justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 40px;
+}
+#paint h1{
+         font-size: 2.5rem;
+         color:#806d3c;
+         margin-bottom: 40px;}
+#paint p{
+         font-size:1.2rem;
+         color: #898583;
+}
+
+/*  types of paintings classes and id*/
+.btn{
+         cursor: pointer;
+         padding: 5px 20px;
+         border:2px solid #898583;
+         border-radius:10px 10px 10px 10px;
+         background-color:#fff;
+         color:#37373d;
+         text-align:left;
+         font-size: 1.5rem;
+         height:26px;
+         width: 210px;
+}
+.set{    
+                  cursor: pointer;
+                  padding:6px 20px;
+                  border:2px solid #898583;
+                  border-radius:10px 10px 10px 10px;
+                  background-color:white;
+                  color:#37373d;
+                  font-size: 1.5rem;
+                  height:26px;
+                  width: 210px;
+                  text-align:right;
+                  
+}
+
+.cen{   
+         cursor: pointer;
+         padding:6px 20px;
+         border:2px solid #898583;
+         border-radius:10px 10px 10px 10px;
+         background-color:white;
+         color:#37373d;
+         font-size: 1.5rem;
+         height:26px;
+         width: 210px;
+         text-align:center;
+
+         
+
+}
+#first{
+        
+         display:flex;
+         align-items: center;
+         justify-content: center;
+         height:60px;
+
+}
+#second{
+        display:flex;
+         align-items: center;
+         justify-content: center;
+         height:60px;
+}
+#third{
+  
+         display:flex;
+         align-items:center;
+         justify-content: center;
+         padding-bottom: 25px;
+}
+#first a{
+         text-decoration: none;
+}
+#second a{
+         text-decoration: none;
+}
+#third a{
+         text-decoration: none;
+}
+
+/*page 3 for giving line*/
+#line{
+         display:flex;
+         flex-direction: row;
+         height:0.1px;
+         border: 0.4px solid #806d3c ;
+       margin-bottom:25px;
+         
+}
+/*services*/
+
+#serve h1{
+         color:#806d3c;
+         font-size: 2.5rem;
+         margin-bottom: 40px;
+
+}
+#serve h2{
+         color:#4c4b4a;
+         font:icon;
+         font-size: 20px;
+         margin-bottom:8px;
+}
+#serve p{
+         color:#898583;
+         font-size:1.2rem;
+         margin-bottom: 25px;
+         
+}
+#serve img{
+         margin-bottom:50px;
+}
+/*artist */
+#artist h1{
+         color:#806d3c;
+         font-size: 2.5rem;
+         margin-bottom: 40px;
+
+}
+ #artist h2{
+         color:#4c4b4a;
+         font:icon;
+         font-size: 1.3rem;
+         margin-bottom:8px;
+
+ }
+ #artist p{
+          color:#898583;
+          margin-bottom: 20px;
+          font-size:1.2rem;
+
+ }
+ #special{
+         display:flex;
+         align-items:center;
+         justify-content: center;
+         margin:5px;
+         padding: 2px;
+         margin-bottom: 30px;
+}
+.right{
+         text-align:right;
+         margin:4px;
+         
+}
+.right  h2{
+         display:flex;
+         align-items:center;
+         justify-content: center;
+}
+.center{
+         text-align: center;
+         margin:4px;
+}
+.left{
+         text-align:left;
+         margin:4px;
+}
+.left  h2{
+         display:flex;
+         align-items:center;
+         justify-content: center;}
+
+/*contact section*/
+.h-prim{
+         color:#40403f;
+         font-size: 2.5rem;
+         padding-top:26px;
+}
+#contact {
+         position: relative;
+}
+#contact input{
+         padding-bottom:1px;
+}
+#contact::before{
+         content:"";
+         position: absolute;
+         width:100%;
+         height:642px;
+         z-index:-1;
+         opacity:0.8;
+         background:url(../img/contact.jpg) no-repeat center center/cover;
+}
+#contact-box{
+         display:flex;
+         justify-content: center;
+         align-items:center;
+         padding-top:0px;
+}
+#contact-box input,
+#contact-box textarea{
+         width: 100%;
+         padding :0.5rem;
+}
+#contact-box form{
+         width:45%;
+         margin-bottom: 30px;
+
+}
+#contact-box label{
+         font-size: 1.3rem;
+         font-family: 'Bree Serif',serif;
+         
+}
+/*#send*/
+.bt{
+         display:flex;
+         cursor: pointer;
+         padding:6px 20px;
+         border:2px solid #898583;
+         border-radius:10px 10px 10px 10px;
+         background-color:#806d3c;
+         color:#37373d;
+         text-align:left;
+         font-size: 1.5rem;
+         height:26px;
+         width: 48px;
+}
+
+footer{
+         background-color:black;
+         color:white;
+         padding:1px 0px;
+         margin-top:-36px;
+
+}
+

@@ -1,0 +1,225 @@
+
+@media  (max-width:1028px)
+{
+/*navigation*/
+#navbar{
+         flex-direction: column;
+        height: 9px;
+}
+#navbar::before{
+         height:100px;
+         width:105%;
+}
+#logo{
+         text-align: center;
+}
+
+#navbar ul{
+         margin-top:-5px;
+}
+#navbar ul li a{
+         font-size:1rem;
+         margin:0px 1px;
+}
+
+
+/*home section*/
+
+#home{
+         height:300px;
+         margin-top:100px;
+}
+.h-primary{
+         font-size: 1.5rem;
+         margin-top:3px;
+}
+/*cotainer images*/
+.container{
+         flex-wrap:wrap;
+         
+}
+.container img {
+         width:200;
+         height:160px;
+}}
+
+@media  (max-width:848px){
+/*available painting*/
+#paint h1{
+         font-size: 1.5rem;
+}
+#paint p{
+         font-size:0.9rem;
+}
+/*  types of paintings classes and id*/
+
+.btn{    
+         cursor: pointer;
+         padding:3px 2px;
+         border:2px solid #898583;
+         border-radius:3px 3px 3px 3px 3px;
+         background-color:white;
+         color:#37373d;
+         font-size: 0.9rem;
+         height:15px;
+         width: 85px;
+         text-align:left;
+         
+}
+.set{    
+                  cursor: pointer;
+                  padding:3px 2px;
+                  border:2px solid #898583;
+                  border-radius:3px 3px 3px 3px 3px;
+                  background-color:white;
+                  color:#37373d;
+                  font-size: 0.9rem;
+                  height:15px;
+                  width: 85px;
+                  text-align:right;
+                  
+}
+
+.cen{    
+         cursor: pointer;
+         padding:3px 2px;
+         border:2px solid #898583;
+         border-radius:3px 3px 3px 3px 3px;
+         background-color:white;
+         color:#37373d;
+         font-size: 0.9rem;
+         height:15px;
+         width: 85px;
+         text-align:center;
+         
+}
+
+#first{
+        
+         display:flex;
+         align-items: center;
+         justify-content: center;
+         height:25px;
+         padding-bottom:2px;
+
+}
+#second{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+         height:25px;
+         padding-bottom:2px;
+         
+}
+#third{
+         align-items:center;
+        justify-content: center;
+         display:flex;
+         padding-bottom: 25px;
+
+}
+#first a{
+         margin:0px -3px;
+}
+#second a{
+         margin:0px -3px;
+}
+
+
+/*container*/
+.container{
+         display:flex;
+          flex-wrap: wrap;
+         height: 420;
+}
+.container img{
+         height:130px;
+         width:190px;
+}
+
+/*services*/
+#serve h1{
+         font-size:1.7rem;
+}
+#serve h2{
+         font-size:1.2rem;
+}
+#serve p{
+         font-size:0.8rem;
+}
+#serve img{
+         width:200px;
+         height:240px;
+}
+/*featured artist*/
+#artist h1{
+         font-size:1.7rem;
+}
+#artist p{
+         font-size:0.8rem;
+}
+#special{
+         display:flex;
+         flex-wrap:wrap;
+         
+}
+#special img{
+         width:190px;
+         height:200px;
+}
+#special h2{
+         font-size:0.9rem;
+}
+}
+@media  (max-width:473px){
+/*paintings name*/
+#first {
+         flex-wrap: wrap;
+}
+#second{
+         flex-wrap:wrap;
+}
+#third{
+         flex-wrap:wrap;
+         padding-top:150px;
+        
+}
+#extra a{
+         margin: 30px;
+
+}
+.cen{
+         margin:6px;
+}
+.set{
+         margin: 6px;
+}
+.btn{
+         margin:0px 9px;
+}
+.container{
+         height:800px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
